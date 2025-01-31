@@ -55,9 +55,7 @@ This program determines the most suitable outdoor activity based on the current 
 # Problem 3
 
 ### Task Description
-Write a C function that converts a temperature given in degrees Fahrenheit to the Kelvin scale. The program should:
-- Accept an integer input representing the temperature in Fahrenheit.
-- Use a function to perform the conversion.
+Write a C function that converts a temperature given in degrees Fahrenheit to the Kelvin scale.
 
 ### Instructions:
 0. Go to `problem_3` folder and modify `p3.c` file.
