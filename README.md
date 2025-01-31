@@ -1,4 +1,4 @@
-# TestTemplate
+# Problem 1
 Design a program to manage the balance of a sample wallet. The starting balance is $150.75.
 
 Note:
@@ -25,4 +25,14 @@ Current Balance: $150.75
 Do you want to Add (A) or Spend (S) funds? S
 Enter the amount: $155.00
 Insufficient funds! Please reconsider your spending amount.
+
+### Sample run 1:
+<img width="560" alt="p1_out3" src="https://github.com/user-attachments/assets/5e8c3a0e-e97c-4a32-858f-353f1321d6b7" />
+
+### Sample run 2:
+<img width="717" alt="p1_out2" src="https://github.com/user-attachments/assets/56f02557-0455-4519-90ab-151112e3ff6c" />
+
+### Sample run 3:
+<img width="562" alt="p1_out1" src="https://github.com/user-attachments/assets/1bc65e4c-2afa-4a3c-9ecd-a27d4d81d30e" />
+
 
