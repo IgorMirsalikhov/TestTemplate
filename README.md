@@ -52,3 +52,40 @@ This program determines the most suitable outdoor activity based on the current 
 ### Sample run 3:
 <img width="402" alt="Screenshot 2025-01-30 at 10 06 12 PM" src="https://github.com/user-attachments/assets/2340ca12-9d38-4c63-9026-c2088d93aef2" />
 
+# Problem 3
+
+### Task Description
+Write a C program that converts a temperature given in degrees Fahrenheit to the Kelvin scale. The program should:
+- Accept an integer input representing the temperature in Fahrenheit.
+- Use a function to perform the conversion.
+- Display the temperature in Kelvin.
+
+### Instructions:
+0. Go to `problem_3` folder and modify `p3.c` file.
+1. **IMPORTANT!** Submit only the function implementation. Do not submit the `main` function.
+   
+### Function Prototype
+```c
+float fahrenheitToKelvin(int fahrenheit);
+```
+
+### Conversion Formula
+To convert Fahrenheit to Kelvin, use the following formula:
+
+\[ K = \frac{(F - 32) \times 5}{9} + 273.15 \]
+
+Where:
+- **F** is the temperature in degrees Fahrenheit.
+- **K** is the temperature in Kelvin.
+
+### Sample Run
+```
+Enter temperature in Fahrenheit: 68
+Temperature in Kelvin: 293.15
+```
+
+### Requirements
+- Ensure the input is an integer.
+- Implement the function `fahrenheitToKelvin` to handle the conversion.
+- Print the result with two decimal places if needed.
+
