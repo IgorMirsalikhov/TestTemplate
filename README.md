@@ -9,7 +9,7 @@ Design a program to manage the balance of a sample wallet.
 0. Go to `problem_1` folder and modify `p1.c` file.
 1. Display the initial balance of the wallet to the user.
 2. A prompt should ask the user if they want to add funds (denoted by the character 'A') or spend funds (denoted by the character 'S') from the wallet.
-3. The user should then be prompted for the amount of money they wish to add or spend.
+3. Prompt the user to enter the amount they wish to add or spend. The dollar sign should appear in the prompt, but the user should input only the numerical amount. To scan a double use `"%lf"` conversion specifier.
 4. Update the wallet balance based on the user's input.
 5. Display the updated balance to the user.
 6. If the user is spending money and the amount is greater than the current balance, display the message: "Insufficient funds! Please reconsider your spending amount."
@@ -59,11 +59,11 @@ Write a C function that converts a temperature given in degrees Fahrenheit to th
 
 ### Instructions:
 0. Go to `problem_3` folder and modify `p3.c` file.
-1. **IMPORTANT!** Submit only the function implementation. Do not submit the `main` function.
+1. **IMPORTANT!** `p3.c` should include only the function implementation. Do not submit the `main` function. Do not modify `main.c` file.
    
 ### Function Prototype
 ```c
-double fahrenheitToKelvin(int fahrenheit);
+double fahrenheitToKelvin(double fahrenheit);
 ```
 
 ### Conversion Formula
